@@ -18,6 +18,7 @@ use this module to boot to a more recent kernel if you are unable to replace
 the boot image.
 
 ## Building
+(i screwed up the makefile give me some time)
 The project is comprised of two parts:
 
 - `kernel/` contains the Linux kernel module that exposes Kexec functionality
