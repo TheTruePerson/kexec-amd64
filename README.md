@@ -1,10 +1,11 @@
 # please read
 This is an extremely clunky kernel module in the pre-alpha stage. Please make any pull requests to improve this program!
-
+(sorry for my horrible commit format, I did this entirely locally before creating this repo. and git would not work on my life)
 
 AMD64 kernels already have the kexec functionality built in. This only exists for cases where 
 - the kernel has kexec disabled (custom built)
 - it cannot be rebuilt
+
 The most notable example of this is [shimboot](https://github.com/ading2210/shimboot).
 # kexec-mod-amd64
 Kexec as loadable kernel module for Linux AMD64 kernels based on
