@@ -1,5 +1,5 @@
 # please read
-This is an extremely clunky kernel module in the pre-alpha stage. Please make any pull requests to improve this program!
+This is an extremely clunky kernel module in the pre-alpha stage. It doesn't even compile lol. Please make any pull requests to improve this program!
 (sorry for my horrible commit format, I did this entirely locally before creating this repo. and git would not work on my life)
 
 AMD64 kernels already have the kexec functionality built in. This only exists for cases where 
@@ -18,7 +18,7 @@ use this module to boot to a more recent kernel if you are unable to replace
 the boot image.
 
 ## Building
-(i screwed up the makefile give me some time)
+(Due to issues with the code, at the moment it fails to build.)
 The project is comprised of two parts:
 
 - `kernel/` contains the Linux kernel module that exposes Kexec functionality
